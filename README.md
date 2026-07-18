@@ -1,5 +1,7 @@
 <img width="600" height="371" alt="Time to reach stable pitch" src="https://github.com/user-attachments/assets/e1ba6300-00a8-4016-89b2-56c1064e0767" />
+
 <img width="600" height="371" alt="Requiered dB for stable pitch detection" src="https://github.com/user-attachments/assets/a9569eb4-2bc0-46ac-8829-b77fae70472f" />
+
 <img width="600" height="371" alt="Error in Cents over frequency" src="https://github.com/user-attachments/assets/e6980c3e-2dd3-4701-bacf-c525b01d8963" />
 
 
