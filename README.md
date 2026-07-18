@@ -1,6 +1,16 @@
 <img width="600" height="371" alt="Time to reach stable pitch" src="https://github.com/user-attachments/assets/e1ba6300-00a8-4016-89b2-56c1064e0767" />
 
+The average time to settle for the tuner is 1.02 seconds. The time was recorded counting 240hz slowmotion footage frame by frame and so the resulting error per attampt is likely only within the miliseconds. The data does not seem to show a trend in adjustment time depending on the tested frequency. 
+
+**The needed volume for Proper pitch detection**
+
+Methods: Used a decibil meter on a phone and gradually raised the volume on my speaker system playing a sine tone until the correct tone appears and is stable. It should be noted that the mobil decibal meters are not as acurate as dedicated ones and so exact numbers may deviate.
+
 <img width="600" height="371" alt="Requiered dB for stable pitch detection" src="https://github.com/user-attachments/assets/a9569eb4-2bc0-46ac-8829-b77fae70472f" />
+
+To reach a stable and accurate the tuner requires an average of 61 dB within the range of 50hz - 2000hz. There is a unexpected bump in required volume betewen 500hz - 1000hz but the average still remains 67 dB, bellow 70 dB which is the volume or normal conversation. The tuner becomes unusable the range above 2000hz requiring between 77 dB up to 84dB which is as loud as a diesal truck or food blender. Due to the nature of how I recorded the data it is hard to know if the bump between 500hz -1000hz is a repeatable error or simeply a result of my methods used. Regardless the trend of rapid increasing required volume about 2000 hz is evident qualitativly while recording the data myself. 
+
+
 
 <img width="600" height="371" alt="Error in Cents over frequency" src="https://github.com/user-attachments/assets/e6980c3e-2dd3-4701-bacf-c525b01d8963" />
 
